@@ -1,0 +1,28 @@
+<mvc:View controllerName="sap.ui.demo.walkthrough.view.app"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
+   <Shell>
+      <App>
+         <pages>
+            <Page title="{i18n>homePageTitle}">
+               <content alignItems="Center" justifyContent="Center">
+                  <Panel headerText="{i18n>helloPanelTitle}">
+                     <content>
+                        <Label text="Please enter your name" labelFor="testInput" />
+                        <Input valueLiveUpdate="true" id="nameInput" required="true" value="{/recipient/name}"/>
+                        <FlexBox>
+                           <Label  />
+                        </FlexBox>
+                        <Label text="Welcome {/recipient/name}" />
+                        <FlexBox>
+                           <Label  />
+                        </FlexBox>
+                        <Button text="Push to Read Name" press=".onShowHello"/>
+                     </content>
+                  </Panel>
+               </content>
+            </Page>
+         </pages>
+      </App>
+   </Shell>
+</mvc:View>
