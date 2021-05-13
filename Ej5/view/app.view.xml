@@ -1,0 +1,9 @@
+<mvc:View
+   controllerName="sap.ui.demo.walkthrough.view.app"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+   <Label text="Plase press de button" labelFor="testInput" />
+   <Button
+      text="Push to Read Text"
+      press=".onShowHello"/>
+</mvc:View>
