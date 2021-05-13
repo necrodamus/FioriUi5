@@ -1,0 +1,11 @@
+<mvc:View
+   controllerName="sap.ui.demo.walkthrough.view.app"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+   <Label text="Please enter your name" labelFor="testInput" />
+   <Input valueLiveUpdate="true" id="nameInput" required="true"  value="{/recipient/name}"/>
+   <Label text="Welcome {/recipient/name}" />
+   <Button
+      text="Push to Read Name"           
+      press=".onShowHello"/>
+</mvc:View>
