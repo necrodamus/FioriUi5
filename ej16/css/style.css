@@ -1,0 +1,27 @@
+html[dir="ltr"] .myAppDemoWT .myCustomButton.sapMBtn {
+    margin-right: 0.125rem
+}
+
+html[dir="rtl"] .myAppDemoWT .myCustomButton.sapMBtn {
+    margin-left: 0.125rem
+}
+
+.formatDialog .sapMTitle {
+    color: darkmagenta !important;
+    font-size: 15px;
+    align-items: center;
+    font-style: oblique;
+}
+
+.forAppTexts {
+    color: chocolate;
+    text-align: center;
+    font-size: 25px;
+    font-style: bold;
+}
+
+.myAppDemoWT .myCustomText {
+    align-items: center;
+    display: inline-block;
+    font-weight: bold;
+}
