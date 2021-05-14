@@ -1,0 +1,743 @@
+
+@font-face {
+	font-family: 'BusinessSuiteInAppSymbols';
+	src: url('fonts/BusinessSuiteInAppSymbols.ttf'),
+	url('fonts/BusinessSuiteInAppSymbols.otf'),
+	url('fonts/BusinessSuiteInAppSymbols.woff'),
+	url('fonts/BusinessSuiteInAppSymbols.woff2'),
+        url('fonts/BusinessSuiteInAppSymbols.eot'); /* IE9+ */
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'BusinessSuiteInAppSymbols';
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;	
+	speak-as: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;  
+}
+.icon-heart:before {
+	content: "\e000";
+}
+.icon-quarter:before {
+	content: "\e001";
+}
+.icon-year:before {
+	content: "\e002";
+}
+.icon-equalizer:before {
+	content: "\e003";
+}
+.icon-component:before {
+	content: "\e004";
+}
+.icon-component-private:before {
+	content: "\e005";
+}
+.icon-raw-material:before {
+	content: "\e006";
+}
+.icon-sms:before {
+	content: "\e007";
+}
+.icon-add-note:before {
+	content: "\e008";
+}
+.icon-change-time-horizon:before {
+	content: "\e009";
+}
+.icon-table-chart-customization:before {
+	content: "\e00a";
+}
+.icon-delegated-important-task:before {
+	content: "\e00b";
+}
+.icon-forklift:before {
+	content: "\e00c";
+}
+.icon-coins:before {
+	content: "\e00d";
+}
+.icon-filter-menu:before {
+	content: "\e00e";
+}
+.icon-target-to-date:before {
+	content: "\e00f";
+}
+.icon-program:before {
+	content: "\e010";
+}
+.icon-phase:before {
+	content: "\e011";
+}
+.icon-checklist:before {
+	content: "\e012";
+}
+.icon-mirrored-task:before {
+	content: "\e013";
+}
+.icon-sub-project:before {
+	content: "\e014";
+}
+.icon-checklist-item:before {
+	content: "\e015";
+}
+.icon-adhoc-analysis:before {
+	content: "\e016";
+}
+.icon-change-analysis:before {
+	content: "\e017";
+}
+.icon-review-demands:before {
+	content: "\e018";
+}
+.icon-project-definition:before {
+	content: "\e019";
+}
+.icon-data-access:before {
+	content: "\e01a";
+}
+.icon-define-shortage:before {
+	content: "\e01b";
+}
+.icon-review-supplies:before {
+	content: "\e01c";
+}
+.icon-change-log:before {
+	content: "\e01d";
+}
+.icon-priority-1:before {
+	content: "\e01e";
+}
+.icon-priority-2:before {
+	content: "\e01f";
+}
+.icon-jam:before {
+	content: "\e020";
+}
+.icon-milestone:before {
+	content: "\e021";
+}
+.icon-bulleting-with-numbers:before {
+	content: "\e022";
+}
+.icon-decrease-indent:before {
+	content: "\e023";
+}
+.icon-increase-indent:before {
+	content: "\e024";
+}
+.icon-bold:before {
+	content: "\e025";
+}
+.icon-italic:before {
+	content: "\e026";
+}
+.icon-strike-through:before {
+	content: "\e027";
+}
+.icon-underline:before {
+	content: "\e028";
+}
+.icon-save-as:before {
+	content: "\e029";
+}
+.icon-segmentation:before {
+	content: "\e02A";
+}
+.icon-context-menu:before {
+	content: "\e02B";
+}
+.icon-snapshot:before {
+	content: "\e02C";
+}
+.icon-subtraction-b-a:before {
+	content: "\e02D";
+}
+.icon-subtraction-a-b:before {
+	content: "\e02E";
+}
+.icon-intersection:before {
+	content: "\e02F";
+}
+.icon-union:before {
+	content: "\e030";
+}
+.icon-top:before {
+	content: "\e031";
+}
+.icon-bottom:before {
+	content: "\e032";
+}
+.icon-page-up:before {
+	content: "\e033";
+}
+.icon-page-down:before {
+	content: "\e034";
+}
+.icon-create-dashboard:before {
+	content: "\e035";
+}
+.icon-xcelsius-file:before {
+	content: "\e036";
+}
+.icon-open-folder:before {
+	content: "\e037";
+}
+.icon-neutral:before {
+	content: "\e038";
+}
+.icon-split-segmentation:before {
+	content: "\e039";
+}
+.icon-manage-budget:before {
+	content: "\e03a";
+}
+.icon-blocked:before {
+	content: "\e03b";
+}
+.icon-pipette:before {
+	content: "\e03c";
+}
+.icon-top-recipe:before {
+	content: "\e03e";
+}
+.icon-recipe:before {
+	content: "\e03e";
+}
+.icon-ingredients:before {
+	content: "\e03f";
+}
+.icon-multiple-charts:before {
+	content: "\e040";
+}
+.icon-descending-bars:before {
+	content: "\e041";
+}
+.icon-descending-stacked-bars:before {
+	content: "\e042";
+}
+.icon-scatter-plot:before {
+	content: "\e043";
+}
+.icon-spill:before {
+	content: "\e044";
+}
+.icon-fire:before {
+	content: "\e045";
+}
+.icon-stratification:before {
+	content: "\e046";
+}
+.icon-relationship:before {
+	content: "\e047";
+}
+.icon-margin-decomposition:before {
+	content: "\e048";
+}
+.icon-control-group:before {
+	content: "\e049";
+}
+.icon-comparison-chart:before {
+	content: "\e04A";
+}
+.icon-responsible-area:before {
+	content: "\e04B";
+}
+.icon-increase:before {
+	content: "\e04C";
+}
+.icon-decrease:before {
+	content: "\e04D";
+}
+.icon-current-stock:before {
+	content: "\e04E";
+}
+.icon-expedite:before {
+	content: "\e04F";
+}
+.icon-postpone:before {
+	content: "\e050";
+}
+.icon-approved:before {
+	content: "\e051";
+}
+.icon-partially-delivered:before {
+	content: "\e052";
+}
+.icon-line-bar-chart:before {
+	content: "\e053";
+}
+.icon-expand-all:before {
+	content: "\e054";
+}
+.icon-submission:before {
+	content: "\e055";
+}
+.icon-change-request:before {
+	content: "\e056";
+}
+.icon-column-unselected:before {
+	content: "\e057";
+}
+.icon-column-selected:before {
+	content: "\e058";
+}
+.icon-row-unselected:before {
+	content: "\e059";
+}
+.icon-row-selected:before {
+	content: "\e05A";
+}
+.icon-stock-requirements:before {
+	content: "\e05B";
+}
+.icon-gender-male-and-female:before {
+	content: "\e05C";
+}
+.icon-marital-status:before {
+	content: "\e05D";
+}
+.icon-birthday:before {
+	content: "\e05E";
+}
+.icon-classification:before {
+	content: "\e05F";
+}
+.icon-marked-for-deletion:before {
+	content: "\e060";
+}
+.icon-bullet-chart:before {
+	content: "\e061";
+}
+.icon-remove-filter:before {
+	content: "\e062";
+}
+.icon-bank-account:before {
+	content: "\e063";
+}
+.icon-savings-account:before {
+	content: "\e064";
+}
+.icon-debit-card:before {
+	content: "\e065";
+}
+.icon-vip-customer:before {
+	content: "\e066";
+}
+.icon-undesirable-customer:before {
+	content: "\e067";
+}
+.icon-answered-change-request:before {
+	content: "\e068";
+}
+.icon-collected-change-request:before {
+	content: "\e069";
+}
+.icon-draw-freehand:before {
+	content: "\e06A";
+}
+.icon-draw-circle:before {
+	content: "\e06B";
+}
+.icon-completed:before {
+	content: "\e06C";
+}
+.icon-answered:before {
+	content: "\e06D";
+}
+.icon-traffic-cone:before {
+	content: "\e06E";
+}
+.icon-traffic-lights:before {
+	content: "\e06F";
+}
+.icon-container:before {
+	content: "\e070";
+}
+.icon-container-loading:before {
+	content: "\e071";
+}
+.icon-traffic-jam:before {
+	content: "\e072";
+}
+.icon-products:before {
+	content: "\e073";
+}
+.icon-sidepanel:before {
+	content: "\e074";
+}
+.icon-split-screen:before {
+	content: "\e075";
+}
+.icon-truck-driver:before {
+	content: "\e076";
+}
+.icon-keep-segment:before {
+	content: "\e077";
+}
+.icon-exclude-segment:before {
+	content: "\e078";
+}
+.icon-separate-segments:before {
+	content: "\e079";
+}
+.icon-distribute-segments:before {
+	content: "\e07A";
+}
+.icon-next-open-item:before {
+	content: "\e07B";
+}
+.icon-where-used:before {
+	content: "\e07C";
+}
+.icon-outbound-delivery:before {
+	content: "\e07D";
+}
+.icon-outbound-delivery-inactive:before {
+	content: "\e07E";
+}
+.icon-outbound-delivery-active:before {
+	content: "\e07F";
+}
+.icon-target:before {
+	content: "\e080";
+}
+.icon-source:before {
+	content: "\e081";
+}
+.icon-material:before {
+	content: "\e082";
+}
+.icon-due-date:before {
+	content: "\e083";
+}
+.icon-overdue:before {
+	content: "\e084";
+}
+.icon-set-as-default:before {
+	content: "\e085";
+}
+.icon-face-very-bad:before {
+	content: "\e086";
+}
+.icon-face-bad:before {
+	content: "\e087";
+}
+.icon-face-skeptical:before {
+	content: "\e088";
+}
+.icon-face-neutral:before {
+	content: "\e089";
+}
+.icon-face-astonished:before {
+	content: "\e08A";
+}
+.icon-face-happy:before {
+	content: "\e08B";
+}
+.icon-face-very-happy:before {
+	content: "\e08C";
+}
+.icon-face-awful:before {
+	content: "\e08D";
+}
+.icon-face-devastated:before {
+	content: "\e08E";
+}
+.icon-face-okey-dokey:before {
+	content: "\e08F";
+}
+.icon-alarm:before {
+	content: "\e090";
+}
+.icon-activate:before {
+	content: "\e091";
+}
+.icon-segment-preview-reference-objects:before {
+	content: "\e092";
+}
+.icon-radius:before {
+	content: "\e093";
+}
+.icon-polygone-black:before {
+	content: "\e094";
+}
+.icon-polygone-white:before {
+	content: "\e095";
+}
+.icon-ploygone:before {
+	content: "\e096";
+}
+.icon-no-filter:before {
+	content: "\e097";
+}
+.icon-grip:before {
+	content: "\e098";
+}
+.icon-grip:component {
+	content: "\e099";
+}
+.icon-water:before {
+	content: "\e09A";
+}
+.icon-gas:before {
+	content: "\e09B";
+}
+.icon-liquid:before {
+	content: "\e09C";
+}
+
+.icon-time-deposit:before {
+	content: "\e09D";
+}
+
+.icon-early-widthdrawal-for-time-deposits:before {
+	content: "\e09E";
+}
+
+.icon-truck-load:before {
+	content: "\e0E8";
+}
+
+.icon-truck-unload:before {
+	content: "\e0E9";
+}
+
+.icon-truck-load-unload:before {
+	content: "\e0EA";
+}
+
+.icon-pharmacy:before {
+	content: "\e0EB";
+}
+
+.icon-medicine-syrup:before {
+	content: "\e0EC";
+}
+
+.icon-reminder:before {
+	content: "\e0ED";
+}
+
+.icon-medicine-pill:before {
+	content: "\e0EE";
+}
+
+.icon-medicine-ointment:before {
+	content: "\e0EF";
+}
+
+.icon-medicine-drops:before {
+	content: "\e0F0";
+}
+
+.icon-blood-test:before {
+	content: "\e0F1";
+}
+
+.icon-temperature:before {
+	content: "\e0F2";
+}
+
+.icon-medicine-inhaler:before {
+	content: "\e0F3";
+}
+
+.icon-foot-steps:before {
+	content: "\e0F4";
+}
+
+.icon-weight:before {
+	content: "\e0F5";
+}
+
+.icon-health-tracking:before {
+	content: "\e0F6";
+}
+
+.icon-blood-pressure:before {
+	content: "\e0F7";
+}
+
+.icon-immunization:before {
+	content: "\e0F8";
+}
+
+.icon-allergies:before {
+	content: "\e0F9";
+}
+	
+.icon-rescheduling2:before {
+	content: "\e0FA";
+}
+	
+.icon-resequencing2:before {
+	content: "\e0FB";
+}
+
+.icon-no-time-change:before {
+	content: "\e0FC";
+}
+
+.icon-time-change:before {
+	content: "\e0FD";
+}
+.icon-smart-matcher:before {
+	content: "\e0FE";
+}
+.icon-legal-section:before {
+	content: "\e10A";
+}
+.icon-causes:before {
+	content: "\e10B";
+}
+.icon-effects:before {
+	content: "\e10C";
+}
+.icon-shared-by-me:before {
+	content: "\e10D";
+}
+.icon-shared-with-me:before {
+	content: "\e10E";
+}
+.icon-alert-groups:before {
+	content: "\e111";
+}
+.icon-function-alert:before {
+	content: "\e112";
+}
+.icon-function-hierarchy:before {
+	content: "\e113";
+}
+
+.icon-rfid:before {
+	content: "\e114";
+}
+
+.icon-input:before {
+	content: "\e115";
+}
+
+.icon-software-item:before {
+	content: "\e116";
+}
+
+.icon-product-view:before {
+	content: "\e117";
+}
+
+.icon-software-item-variant:before {
+	content: "\e118";
+}
+
+.icon-lighthouse:before {
+	content: "\e119";
+}
+
+.icon-demand-unit:before {
+	content: "\e11A";
+}
+
+.icon-fma-management:before {
+	content: "\e11B";
+}
+
+.icon-fma-validation:before {
+	content: "\e11C";
+}
+
+.icon-fma-analytics:before {
+	content: "\e11D";
+}
+
+.icon-class:before {
+	content: "\e11E";
+}
+
+.icon-overview:before {
+	content: "\e11F";
+}
+
+.icon-production:before {
+	content: "\e120";
+}
+
+.icon-subclass:before {
+	content: "\e121";
+}
+
+.icon-variant-configuration:before {
+	content: "\e122";
+}
+
+.icon-sum:before {
+	content: "\e123";
+}
+
+.icon-empty-trailer:before {
+	content: "\e12F";
+}
+
+.icon-door:before {
+	content: "\e130";
+}
+
+.icon-loading-point:before {
+	content: "\e131";
+}
+
+.icon-stock-warehouse:before {
+	content: "\e132";
+}
+
+.icon-gate:before {
+	content: "\e133";
+}
+
+.icon-timeseries-waterfall-chart:before {
+	content: "\e134";
+}
+
+.icon-stages-warning:before {
+	content: "\e138";
+}
+
+.icon-empty-warning:before {
+	content: "\e139";
+}
+
+
+html[dir="ltr"] .myAppDemoWT .myCustomButton.sapMBtn {
+    margin-right: 0.125rem
+}
+
+html[dir="rtl"] .myAppDemoWT .myCustomButton.sapMBtn {
+    margin-left: 0.125rem
+}
+
+.formatDialog .sapMTitle {
+    color: darkmagenta !important;
+    font-size: 15px;
+    align-items: center;
+    font-style: oblique;
+}
+
+.forAppTexts {
+    color: chocolate;
+    text-align: center;
+    font-size: 25px;
+    font-style: bold;
+}
+
+.myAppDemoWT .myCustomText {
+    align-items: center;
+    display: inline-block;
+    font-weight: bold;
+}
