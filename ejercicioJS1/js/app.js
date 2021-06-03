@@ -86,3 +86,19 @@ console.log(sTextTesting.match(/sto/gi));
 
 console.log("el char ubicado en la pos 14 comenzando del 0 es " , sTextTesting.charAt(14));
 
+console.log("Convierte en array split un string " , sTextTesting.split());
+
+let setNumber = 123;
+
+let newStringFormat = setNumber.toString().concat(" agregregando");
+
+console.log("en minusculas = " ,newStringFormat.toLowerCase());
+console.log("en minusculas = " ,newStringFormat.toUpperCase());
+
+let setStringF1 = "Cobol";
+let setStringF2 = "JavaScript";
+
+//el literal es alt 96 se usa para armar textos con variables dinamicos
+let setFrace = `aprendi a programar ${setStringF1} en mi adolecencia y ahora aprendo a programar en ${setStringF2}`;
+
+console.log(`la concatenarcion quedo ${setFrace}`);
