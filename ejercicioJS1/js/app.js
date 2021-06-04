@@ -102,3 +102,12 @@ let setStringF2 = "JavaScript";
 let setFrace = `aprendi a programar ${setStringF1} en mi adolecencia y ahora aprendo a programar en ${setStringF2}`;
 
 console.log(`la concatenarcion quedo ${setFrace}`);
+
+//se puede armar un literal mas grande
+let setLiteralMultilines =`
+El lenguaje de los abuelos fue y sera
+            ${setStringF1}
+y es un lenguaje muy duro y fuerte
+`;
+
+console.log(setLiteralMultilines);
